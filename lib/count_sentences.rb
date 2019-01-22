@@ -29,9 +29,4 @@ class String
 
   def count_sentences
     self.split("\W")
-      return true
-    else
-      return false
-    end
-  end
 end
