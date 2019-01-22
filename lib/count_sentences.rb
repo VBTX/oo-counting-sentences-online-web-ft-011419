@@ -30,3 +30,4 @@ class String
   def count_sentences
     self.split("\W").count
 end
+end
