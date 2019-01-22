@@ -28,6 +28,6 @@ class String
   end
 
   def count_sentences
-    self.split(%r{$\W}).count
+    self.split(%r{[. ! ?]}).count
 end
 end
