@@ -28,6 +28,6 @@ class String
   end
 
   def count_sentences
-    self.split(%r{\W\S}).count
+    self.split(%r{\W\z}).count
 end
 end
