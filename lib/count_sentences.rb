@@ -28,6 +28,10 @@ class String
   end
 
   def count_sentences
-
+    self.split
+      return true
+    else
+      return false
+    end
   end
 end
